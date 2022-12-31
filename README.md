@@ -3,7 +3,7 @@
 Command On Selected Is A Simple Blender Addon that Allows you to Run Blender Operator to Selected Objects
 While It is much better to use the Console if You know What you are doing, this is more "Non Coder Friendly" of Looping a Operator over Selected Objects
 
-![CommandOnSelected](https://user-images.githubusercontent.com/79613445/148007872-d3dfe7a2-a016-4989-ac09-65fd77925a42.gif)
+![CommandOnSelected](https://blenderboi.com/gallery/CommandOnSelected/CommandOnSelectedPanel.png)
 
 What it Does Under the Hood is It will Make Each Selected Object into Active one by one and Run the Command You Provided
 
@@ -13,7 +13,7 @@ What it Does Under the Hood is It will Make Each Selected Object into Active one
 
 ## Errors
 
-![Error](https://user-images.githubusercontent.com/79613445/148008992-ab20ec6f-f254-45d9-8a26-15cb930fc1f9.png)
+![Error](https://blenderboi.com/gallery/CommandOnSelected/Errors.png)
 
 - Command On Selected is Extremely Prone to Error, Because Blender's Operator are Context Sensitive. 
 - If You encounter Error, do not need Panic, It is to be expected, and It "most likely" won't break anything. 
@@ -31,7 +31,7 @@ What it Does Under the Hood is It will Make Each Selected Object into Active one
 
 ## Method 1: Using Info Editor
 
-![Info](https://user-images.githubusercontent.com/79613445/148009323-bd09ed24-9d93-4230-a619-a467e413bd2e.png)
+![Info](https://blenderboi.com/gallery/CommandOnSelected/InfoEditor.png)
 
 The Most Eaiest way to Access to the Command is Through the Info Editor
 - Open the Info Editor
@@ -40,23 +40,16 @@ The Most Eaiest way to Access to the Command is Through the Info Editor
 - Select the Last Command (Or the One you want)
 - Copy and Paste to the Command Text Box in the Addon
 
-![Copy Info](https://user-images.githubusercontent.com/79613445/148009742-ded588c6-de77-4b22-8d63-b98089bfb267.png)
+![Copy](https://blenderboi.com/gallery/CommandOnSelected/CopyCommand.png)
 
 ## Method 2: Copy Python Command
 
-![Preferences](https://user-images.githubusercontent.com/79613445/148007876-46264630-e8d3-4341-9fbc-f7ddb65f45f7.png)
+![PythonCommand](https://blenderboi.com/gallery/CommandOnSelected/PythonCommand.png)
+
 
 - First you need to Enable "Developer Extras" and "Python Tooltips" in Preferences
 - After Enabled Python Tooltips, If you Hover an Operator, it will Display the Python Command
 - After Enabled Developer Extras you can Right Click on the Operator and Copy Python Command
 
-![CopyPythonCommand](https://user-images.githubusercontent.com/79613445/148009889-a58c0e90-ee72-40e7-bb85-7d31ef81f30b.png)
+![CopyPython](https://blenderboi.com/gallery/CommandOnSelected/CopyPython.png)
 
-
-# Self Promotion & Links
-
-If you are interested on other Addon I made, You can Check out My Blendermarket, Gumroad or Youtube
-- [Blendermarket](https://blendermarket.com/creators/blenderboi)
-- [Gumroad](https://app.gumroad.com/blenderboi)
-- [Youtube](https://www.youtube.com/channel/UCjXQ5vLN6acGJd9FKpgTD9Q)
-- [Discord](https://discord.gg/EvMJxBM)
